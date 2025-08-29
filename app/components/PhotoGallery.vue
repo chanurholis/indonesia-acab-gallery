@@ -83,54 +83,83 @@ const showModal = ref(false);
 const selectedMedia = ref(null);
 
 const media = ref([
+  { 
+    id: 1,
+    type: 'image',
+    src: '/images/1.jpeg',
+  },
+  { 
+    id: 2,
+    type: 'image',
+    src: '/images/2.jpeg',
+  },
+  { 
+    id: 3,
+    type: 'image',
+    src: '/images/3.png',
+  },
+  { 
+    id: 4,
+    type: 'image',
+    src: '/images/4.jpeg',
+  },
+  { 
+    id: 5,
+    type: 'image',
+    src: '/images/5.jpeg',
+  },
+  { 
+    id: 6,
+    type: 'image',
+    src: '/images/6.jpeg',
+  },
+  { 
+    id: 7,
+    type: 'image',
+    src: '/images/7.jpeg',
+  },
   // { 
-  //   id: 1,
-  //   type: 'image',
-  //   src: '/images/1.jpeg',
-  //   alt: 'Pemandangan Gunung' 
+  //   id: 1, 
+  //   type: 'video', 
+  //   source: 'youtube',
+  //   videoUrl: 'https://x.com/i/status/1961094812096180330',
+  //   alt: 'Video dari Proyek' 
   // },
-  { 
-    id: 1, 
-    type: 'video', 
-    source: 'local',
-    videoUrl: '/videos/1.mp4',
-    alt: 'Video dari Proyek' 
-  },
-  { 
-    id: 2, 
-    type: 'video', 
-    source: 'local',
-    videoUrl: '/videos/2.mp4',
-    alt: 'Video dari Proyek' 
-  },
-  { 
-    id: 3, 
-    type: 'video', 
-    source: 'local',
-    videoUrl: '/videos/3.mp4',
-    alt: 'Video dari Proyek' 
-  },
-  { 
-    id: 4, 
-    type: 'video', 
-    source: 'local',
-    videoUrl: '/videos/4.mp4',
-    alt: 'Video dari Proyek' 
-  },
-  { 
-    id: 5, 
-    type: 'video', 
-    source: 'local',
-    videoUrl: '/videos/5.mp4',
-    alt: 'Video dari Proyek' 
-  },
-  { 
-    id: 6, 
-    type: 'video', 
-    source: 'local',
-    videoUrl: '/videos/6.mp4',
-    alt: 'Video dari Proyek' 
-  },
+  // { 
+  //   id: 2, 
+  //   type: 'video', 
+  //   source: 'local',
+  //   videoUrl: '/videos/2.mp4',
+  //   alt: 'Video dari Proyek' 
+  // },
+  // { 
+  //   id: 3, 
+  //   type: 'video', 
+  //   source: 'local',
+  //   videoUrl: '/videos/3.mp4',
+  //   alt: 'Video dari Proyek' 
+  // },
+  // { 
+  //   id: 4, 
+  //   type: 'video', 
+  //   source: 'local',
+  //   videoUrl: '/videos/4.mp4',
+  //   alt: 'Video dari Proyek' 
+  // },
+  // { 
+  //   id: 5, 
+  //   type: 'video', 
+  //   source: 'local',
+  //   videoUrl: '/videos/5.mp4',
+  //   alt: 'Video dari Proyek' 
+  // },
+  // { 
+  //   id: 6, 
+  //   type: 'video', 
+  //   source: 'local',
+  //   videoUrl: '/videos/6.mp4',
+  //   alt: 'Video dari Proyek' 
+  // },
 ]);
 
 const openMedia = (item) => {
